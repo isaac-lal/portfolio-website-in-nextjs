@@ -1,5 +1,3 @@
-# Isaac Lal's Portfolio
-
 This is a well-developed website using: **Next.js & Tailwind CSS**
 
 ### Content
