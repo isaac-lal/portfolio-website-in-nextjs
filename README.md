@@ -1,4 +1,4 @@
-# Isaac Lal
+# Isaac Lal's Portfolio
 
 This website was developed using **Next.js & Tailwind CSS** and deployed with **Hostinger**
 
