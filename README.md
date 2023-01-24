@@ -1,4 +1,6 @@
-This is a well-developed website using: **Next.js & Tailwind CSS**
+# Isaac Lal
+
+This website was developed using **Next.js & Tailwind CSS** and deployed with **Hostinger**
 
 ### Content
 - HOME: my current progress with Web Development and the links to my LinkedIn, GitHub, Email, and Resume
