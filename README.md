@@ -1,12 +1,12 @@
 # Isaac Lal's Portfolio
 
----
-#### Welcome to my portfolio!
+### Welcome to my portfolio!
 
 This is a well-developed website using:
 
-Next.js 
-Tailwind CSS
+#### Next.js 
+
+#### Tailwind CSS
 
 What you will find here is 
 - HOME: my current progress with Web Development and the links to my LinkedIn, GitHub, Email, and Resume
