@@ -1,6 +1,8 @@
 # Isaac Lal's Portfolio
 
-This website was developed using **Next.js & Tailwind CSS** and deployed with **Hostinger**
+This website was developed using:
+ **React** <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
+ **Tailwind CSS** 
 
 ### Content
 - HOME: my current progress with Web Development and the links to my LinkedIn, GitHub, Email, and Resume
