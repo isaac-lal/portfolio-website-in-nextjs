@@ -18,8 +18,8 @@ const About = () => {
             playing games on multiple websites, and more. I loved how technology
             made the ideas of websites come to life, but I never really
             understood how it was made. I knew I wanted to be a part of the
-            process for years, but I really haven't gotten my head engaged in it
-            until August 2022.{' '}
+            process for years, but I really haven&apos;t gotten my head engaged
+            in it until August 2022.{' '}
           </p>
 
           <p className='py-2 text-gray-300'>
@@ -35,11 +35,11 @@ const About = () => {
 
           <p className='py-2 text-gray-300'>
             In my experience in being a front-end developer, I have loved all
-            the technologies that I am using and how it's evolving my creativity
-            and making me more efficient overall. I am now mastering my craft in
-            front-end development and I am slowly going to dabble in the
-            back-end to try to become a full-stack developer. But for now, I am
-            loving Web Development and it really helps me to appreciate the
+            the technologies that I am using and how it&apos;s evolving my
+            creativity and making me more efficient overall. I am now mastering
+            my craft in front-end development and I am slowly going to dabble in
+            the back-end to try to become a full-stack developer. But for now, I
+            am loving Web Development and it really helps me to appreciate the
             product that I create in the end.
           </p>
         </div>

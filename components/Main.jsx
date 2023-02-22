@@ -17,13 +17,14 @@ const Main = () => {
           </h1>
           <h2 className='py-2 text-gray-400'>A Web Developer</h2>
           <p className='py-4 pb-20 text-gray-300 max-w-[70%] m-auto'>
-            I'm learning about the technology used to build beautiful, stunning,
-            and responsive websites to show to others. I currently specialize in
-            front-end visual aspects of the website, while learning about the
-            back-end aspect of what goes on behind the scenes.
+            I&apos;m learning about the technology used to build beautiful,
+            stunning, and responsive websites to show to others. I currently
+            specialize in front-end visual aspects of the website, while
+            learning about the back-end aspect of what goes on behind the
+            scenes.
           </p>
           <p className='uppercase tracking-widest text-[#00bfff]'>
-            Let's Connect
+            Let&apos;s Connect
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a

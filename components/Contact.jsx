@@ -56,11 +56,13 @@ const Contact = () => {
                 <h3>Front-End Developer</h3>
                 <p className='py-4'>
                   I am available for communication through email. Just fill out
-                  the form to send me an email and we'll talk!
+                  the form to send me an email and we&apos;ll talk!
                 </p>
               </div>
               <div>
-                <p className='uppercase pt-8 text-[#00bfff]'>Let's Connect</p>
+                <p className='uppercase pt-8 text-[#00bfff]'>
+                  Let&apos;s Connect
+                </p>
                 <div className='flex items-center justify-between py-4'>
                   <a
                     href='https://www.linkedin.com/in/isaac-lal/'
