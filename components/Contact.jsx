@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import ContactImg from '../public/assets/contact.jpg';
 import Image from 'next/image';
-import { AiOutlineMail } from 'react-icons/ai';
+import { AiOutlineMail, AiOutlineInstagram } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
@@ -62,30 +62,43 @@ const Contact = () => {
               <div>
                 <p className='uppercase pt-8 text-[#00bfff]'>Let's Connect</p>
                 <div className='flex items-center justify-between py-4'>
-                  <Link
+                  <a
                     href='https://www.linkedin.com/in/isaac-lal/'
                     target='_blank'
+                    rel='noreferrer'
                   >
                     <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
                       <FaLinkedinIn />
                     </div>
-                  </Link>
+                  </a>
 
-                  <Link href='https://github.com/isaac-lal' target='_blank'>
+                  <a
+                    href='https://github.com/isaac-lal'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
                     <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
                       <FaGithub />
                     </div>
-                  </Link>
-                  <Link href='mailto:isaaclal124@gmail.com' target='_blank'>
+                  </a>
+                  <a
+                    href='https://www.instagram.com/lalify8/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
+                      <AiOutlineInstagram />
+                    </div>
+                  </a>
+                  <a
+                    href='mailto:isaaclal124@gmail.com'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
                     <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
                       <AiOutlineMail />
                     </div>
-                  </Link>
-                  <Link href='' target='_blank'>
-                    <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
-                      <BsFillPersonLinesFill />
-                    </div>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

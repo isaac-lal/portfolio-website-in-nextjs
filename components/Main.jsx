@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
+import { AiOutlineClose, AiOutlineMenu, AiOutlineMail, AiOutlineInstagram } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Link from 'next/link';
@@ -26,26 +26,42 @@ const Main = () => {
             Let's Connect
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-            <Link href='https://www.linkedin.com/in/isaac-lal/' target='_blank'>
+            <a
+              href='https://www.linkedin.com/in/isaac-lal/'
+              target='_blank'
+              rel='noreferrer'
+            >
               <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
                 <FaLinkedinIn />
               </div>
-            </Link>
-            <Link href='https://github.com/isaac-lal' target='_blank'>
+            </a>
+            <a
+              href='https://github.com/isaac-lal'
+              target='_blank'
+              rel='noreferrer'
+            >
               <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
                 <FaGithub />
               </div>
-            </Link>
-            <Link href='mailto:isaaclal124@gmail.com' target='_blank'>
+            </a>
+            <a
+              href='https://www.instagram.com/lalify8/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
+                <AiOutlineInstagram />
+              </div>
+            </a>
+            <a
+              href='mailto:isaaclal124@gmail.com'
+              target='_blank'
+              rel='noreferrer'
+            >
               <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
                 <AiOutlineMail />
               </div>
-            </Link>
-            <Link href='' target='_blank'>
-              <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
-                <BsFillPersonLinesFill />
-              </div>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
