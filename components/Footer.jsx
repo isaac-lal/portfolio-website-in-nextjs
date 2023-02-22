@@ -6,7 +6,7 @@ const Footer = () => {
       <footer
         className='
         translate-y-28	
-             text-3xl text-white text-center
+             text-3xl text-gray-400 text-center
              font-bold
              border-t-4 border-gray-500
              inset-x-0
